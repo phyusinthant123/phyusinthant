@@ -1,0 +1,28 @@
+/* content */
+.content_resize { padding:32px 0 24px 40px; width:900px; background-color:#fff;}
+.content .mainbar { float:left; width:630px;}
+.content .mainbar img { margin:0 12px 24px 0px; padding:4px; border:1px solid #b7b7b7; background-color:#fff;}
+.content .mainbar img.fl { float:left; margin-right:12px;}
+.content .mainbar .article, .content .sidebar .gadget { margin:0; padding:0 0 16px 0;}
+.content .sidebar { float:right; width:276px;}
+h4{
+    color:blue;
+}#tm-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;    
+    z-index: -1000;
+}
+
+.tm-video-wrapper { position: relative; }
+
+#tm-video-control-button {
+    cursor: pointer;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 1000;
+    background-color: rgba(0,0,0,0.5);
+    color: white;    
+    padding: 10px;
+}
